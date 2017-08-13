@@ -10,11 +10,12 @@ class App extends Component {
         <div className="App-header">
           <h2>Bo starts with React</h2>
           {/* Klasse aufrufen */}
-          <Button></Button>
+          {/* Wir übergeben Parameter, label ist hier wie Eigenschaft/Variable, Videobeispiel wurde label genommen */}
+          <Button label="Klick mich!"></Button>
         </div>
 
         {/* wir verwenden wieder diese Komponente */}
-        <Button></Button>
+        <Button label="Klick mich nicht!"></Button>
       </div>
     );
   }
