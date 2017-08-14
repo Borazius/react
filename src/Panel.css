@@ -1,0 +1,20 @@
+.Panel {
+    border: 2px solid #800040;
+    margin: 0;
+}
+
+.Panel-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+    text-align: left;
+    background-color: #868686;
+    border-bottom: 1px solid #ffff00;
+}
+
+.Panel-content {
+    padding: 1rem;
+    margin: 0;
+    text-align: left;
+    background-color: #ffffff;
+}
