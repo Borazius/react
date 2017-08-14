@@ -17,11 +17,22 @@ class App extends Component {
 
         {/* wir verwenden wieder diese Komponente */}
         <Button label="Klick mich nicht!"></Button>
-        <br /> <br /> <br /> <br /> <br />
-        {/* Anmerkung: alle Parameter in einer Zeile */}
+        <br/><br/><br/><br/>
+        <br/> {/* Anmerkung: alle Parameter in einer Zeile */}
         <Panel title="1. Panel - Überschrift" inhalt="Lorem ipsum lorem olum was geht"></Panel>
         <br/>
         <Panel title="2. Panel - Überschrift" inhalt="Lorem ipsum"></Panel>
+        <br/><br/> {/* Übungsaufgabe: Abschnitt 3, Kapitel 14 */}
+        {/* Wir verschachteln in dieser Aufgabe normale
+        HTML-Tags innherhalb einer Komponente */}
+
+        <Panel title="3. Panel - mit einem HTML-Tag">
+          <strong>Hier ist ein strong-Tag</strong>
+        </Panel>
+        <br/><br/>
+        <Panel title="4. Panel - Mit einer eigenen Komponente verschachtelt">
+          <Button label="Beliebiger Text"></Button>
+        </Panel>
       </div>
     );
   }
