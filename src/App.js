@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Bo starts with React</h2>
+          <h2 className="App-heading">Bo starts with React</h2>
           {/* Klasse aufrufen */}
           {/* Wir übergeben Parameter, label ist hier wie Eigenschaft/Variable, Videobeispiel wurde label genommen */}
           <Button label="Klick mich!"></Button>

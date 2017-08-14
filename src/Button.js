@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import "./Button.css";
 
 // erstelle eine Klasse Button und erbe von der Klasse Components
 class Button extends Component {
@@ -10,7 +11,11 @@ class Button extends Component {
 
     return (
       <div className="btn">
-        <h1>Ich bin ein Button</h1>
+
+        {/* Klasse wie im folgenden bennen:
+        "Komponente-CSS-Element" */}
+        
+        <h1 className="Button-heading">Ich bin ein Button</h1>
         {/* normaler HTML-Button, daher kleingeschrieben */}
         <button>
           {/* statt Text "klick mich" hier JavaScript mit props */}

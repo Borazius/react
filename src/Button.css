@@ -1,0 +1,11 @@
+/* Übungsbeispiel Abschnitt 3 Kapitel 10 */
+/* CSS & Komponenten */
+/* Man könnte eine CSS-Datei für alle Komponenten erstellen,
+besser noch: Man erstellt eine jeweilige CSS-Datei für eine Komponente,
+also hier Button.css für die Komponente Button.js -> Übersichtlicher */
+
+/* Hier ist die CSS für die Komponente Button.js */
+
+.Button-heading{
+    color: green;
+}
